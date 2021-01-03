@@ -2,7 +2,9 @@ import React from 'react';
 //import Split from './composition/Split';
 import './App.css';
 //import Tooltip from './composition/Tooltip';
-import Messages from './Messages';
+//import Messages from './Messages';
+//import TheDate from './state/TheDate';
+import Counter from './state/Counter'
 
 class App extends React.Component {
   render() {
