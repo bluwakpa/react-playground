@@ -47,7 +47,12 @@ export default function RegistrationForm() {
                 maxLength="72"
                 value={repeatPassword}
                 placeholder="Repeat Password"
-                onChange={(e) => setRepeatPassword(e.target.value)} />
+                ref={register({
+                    validate: value =>
+                      value === password.current || "The passwords do not match"
+                  })}
+                />
+                {onError.password_repeat && <p>{onError.password_repeat.message}</p>}
         </div>
         <div>
             <button type="reset">
