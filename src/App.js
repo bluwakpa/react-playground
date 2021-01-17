@@ -5,6 +5,7 @@ import './App.css';
 //import Messages from './Messages';
 //import TheDate from './state/TheDate';
 //import Counter from './state/Counter'
+import AppLang from './lang-context/AppLang'
 
 class App extends React.Component {
   render() {

@@ -6,9 +6,10 @@ import './index.css';
 //import Bomb from './state-drills/Bomb'
 //import RouletteGun from './state-drills/RouletteGun'
 //import Counter from './state/Counter'
-import AppLang from './lang-context/AppLang';
+//import AppLang from './lang-context/AppLang';
+import RegistrationForm from './registrationForm/registrationForm'
 
 ReactDOM.render(
-    <AppLang />, 
+    <RegistrationForm />, 
     document.getElementById('root')
 );
